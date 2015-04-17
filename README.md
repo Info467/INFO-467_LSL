@@ -1,1 +1,1 @@
-Script library for he iLearning Labs
+Script library for the iLearning Labs
