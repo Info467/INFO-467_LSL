@@ -10,11 +10,11 @@ default
     {
         if (status == TRUE) {
             string msg = "off";
-            llSay(CHANNEL, msg);
+            llWhisper(CHANNEL, msg);
             status = FALSE;
         } else {
             string msg = "on"; 
-            llSay(CHANNEL, msg);
+            llWhisper(CHANNEL, msg);
             status = TRUE;
         }   
     }
