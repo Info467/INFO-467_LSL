@@ -1,0 +1,21 @@
+body{
+	background-color: rgb(236, 240, 241);
+	color: rgb(142, 68, 173);
+}
+
+h1 {
+	font-size: 50pt;
+	font-weight: bold;
+   text-align: center;
+}
+
+h2 {
+	font-size: 40pt;
+   text-align: center;
+   padding-left: 50px;
+}
+
+p {
+	text-align: center;
+	font-size: 30pt;
+}

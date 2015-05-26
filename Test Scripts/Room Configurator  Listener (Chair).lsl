@@ -15,7 +15,6 @@ default
 
     listen(integer CHANNEL, string name, key id, string message)
     {
-        string thing = message;
         if (message == "off") {
             // off means visible
             llSetLinkAlpha(LINK_SET, 1.0, ALL_SIDES);
