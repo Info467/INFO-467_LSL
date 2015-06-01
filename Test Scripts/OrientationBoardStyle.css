@@ -1,6 +1,12 @@
-body{
-	background-color: rgb(236, 240, 241);
-	color: rgb(142, 68, 173);
+@font-face {
+	font-family: roboto;
+	url(http://fonts.googleapis.com/css?family=Roboto);
+}
+
+body {
+	background-color: rgb(75, 46, 131);
+	color: rgb(236, 240, 241);
+	font-family: roboto;
 }
 
 h1 {
