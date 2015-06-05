@@ -22,7 +22,7 @@ message_parse(string message)
     {
         FOUND = TRUE;
         //Tell the HUD Master object was found
-        llWhisper(CHANNEL, "TOT++");
+        llWhisper(CHANNEL, NAME + " TOT++");
         //Update text
         llSetText("FOUND" , <1.0, 1.0, 1.0>, 1.0);
         //Set the color to white
@@ -32,7 +32,7 @@ message_parse(string message)
         llScaleTexture(1, 1, ALL_SIDES);
     }
     //Master says to reset
-    else if (message == "res")
+    else if (message == NAME + " restart")
     {
         llResetScript();
     }
